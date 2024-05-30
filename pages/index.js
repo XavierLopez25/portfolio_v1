@@ -15,21 +15,42 @@ const Home = () => {
         xl:text-left h-full container mx-auto"
         >
           {/* title*/}
-          <h1 className="h1">
+          <motion.h1
+            variants={fadeIn('down', 0.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="h1"
+          >
             Transforming Ideas <br /> Into <span className="text-accent">Digital Reality</span>
-          </h1>
+          </motion.h1>
           {/* subtitle */}
-          <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
+          <motion.p
+            variants={fadeIn('down', 0.3)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+          >
             As a student at Universidad del Valle de Guatemala studying Computer Science and
             Information Technology Engineering, I'm embracing a full-stack developer mindset, I
             integrate knowledge across backend systems, frontend interfaces, AI technologies, and
             database management. My goal is to transform ideas into digital reality, creating
             comprehensive and secure solutions.
-          </p>
+          </motion.p>
           {/* button */}
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
           </div>
+          <motion.div
+            variants={fadeIn('down', 0.4)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="hidden xl:flex"
+          >
+            <ProjectsBtn />
+          </motion.div>
         </div>
       </div>
       {/* image */}
