@@ -18,6 +18,7 @@
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.3",
     "swiper": "^9.4.0",
+    "tailwind-gradient-mask-image": "^1.2.0",
     "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^2.9.3"
   },
