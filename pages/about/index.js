@@ -109,18 +109,22 @@ const chunkArray = (array, size) => {
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  const [isVisible, setIsVisible] = useState(window.innerWidth >= 1700);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       setIsVisible(window.innerWidth >= 1700);
     };
 
-    window.addEventListener('resize', handleResize);
+    if (typeof window !== 'undefined') {
+      handleResize();
+      window.addEventListener('resize', handleResize);
+    }
 
-    // Cleanup event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('resize', handleResize);
+      }
     };
   }, []);
 
