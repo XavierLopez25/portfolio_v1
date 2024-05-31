@@ -155,10 +155,19 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            6 year ago, I started with HTML5, CSS and JS as a web developer. Since then, I've done
+            6 years ago, I started with HTML5, CSS and JS as a web developer. Since then, I've done
             many projects for a restaurant, a Warframe blog, a calculator with testing purposes, all
             of them with React + Vite. I've also done a few projects with Figma and Photoshop, in
-            which there are 3 redesigns and a own design.
+            which there are 3 redesigns and a own design.{' '}
+            <span className="text-accent">
+              <a
+                href="https://drive.google.com/file/d/1Kl54h85XmEUE9eDOF4D0EMlsn1hnTqKX/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link to my CV
+              </a>
+            </span>
           </motion.p>
           {/*counters*/}
           <motion.div
