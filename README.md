@@ -147,7 +147,7 @@ Run the application in production mode:
 # 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-#📧 Contact
+# 📧 Contact
 If you have any questions or suggestions, feel free to contact me through my email.
 
 Thanks for visiting my portfolio! 🚀
