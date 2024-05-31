@@ -30,7 +30,7 @@ const Services = () => {
             >
               I provide a range of services including UI/UX design, frontend and backend
               development, and API REST development. I ensure your projects are visually appealing,
-              functional, and efficient. Let's bring your ideas to life with professional
+              functional, and efficient. Let&apos;s bring your ideas to life with professional
               development solutions.
             </motion.p>
           </div>

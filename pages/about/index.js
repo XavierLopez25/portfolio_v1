@@ -9,6 +9,7 @@ import {
   SiVite,
   SiVitest,
   SiJest,
+  SiTailwindcss,
 } from 'react-icons/si';
 
 import { BiLogoPostgresql } from 'react-icons/bi';
@@ -28,22 +29,23 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <BiLogoPostgresql />,
-          <FaDocker />,
-          <SiVite />,
-          <SiVitest />,
-          <SiJest />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
+          <SiFramer key="framer" />,
+          <BiLogoPostgresql key="postgresql" />,
+          <FaDocker key="docker" />,
+          <SiVite key="vite" />,
+          <SiVitest key="vitest" />,
+          <SiJest key="jest" />,
+          <SiTailwindcss key="tailwind" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobephotoshop />],
+        icons: [<FaFigma key="figma" />, <SiAdobephotoshop key="photoshop" />],
       },
     ],
   },
@@ -155,10 +157,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            6 years ago, I started with HTML5, CSS and JS as a web developer. Since then, I've done
-            many projects for a restaurant, a Warframe blog, a calculator with testing purposes, all
-            of them with React + Vite. I've also done a few projects with Figma and Photoshop, in
-            which there are 3 redesigns and a own design.{' '}
+            6 years ago, I started with HTML5, CSS and JS as a web developer. Since then, I&apos;ve
+            done many projects for a restaurant, a Warframe blog, a calculator with testing
+            purposes, all of them with React + Vite. I&apos;ve also done a few projects with Figma
+            and Photoshop, in which there are 3 redesigns and a own design.{' '}
             <span className="text-accent">
               <a
                 href="https://drive.google.com/file/d/1Kl54h85XmEUE9eDOF4D0EMlsn1hnTqKX/view?usp=sharing"

@@ -33,7 +33,7 @@ const Home = () => {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             As a student at Universidad del Valle de Guatemala studying Computer Science and
-            Information Technology Engineering, I'm embracing a full-stack developer mindset, I
+            Information Technology Engineering, I&apos;m embracing a full-stack developer mindset, I
             integrate knowledge across backend systems, frontend interfaces, AI technologies, and
             database management. My goal is to transform ideas into digital reality, creating
             comprehensive and secure solutions.

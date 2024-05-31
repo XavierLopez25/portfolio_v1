@@ -28,10 +28,10 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Here are some of the projects I've worked on, demonstrating my skills in UI/UX design,
-              frontend and backend development, and API integration. Each project reflects my
-              commitment to quality and my ability to deliver functional and aesthetically pleasing
-              solutions. Explore my works and see how I can help bring your ideas to life.
+              Here are some of the projects I&apos;ve worked on, demonstrating my skills in UI/UX
+              design, frontend and backend development, and API integration. Each project reflects
+              my commitment to quality and my ability to deliver functional and aesthetically
+              pleasing solutions. Explore my works and see how I can help bring your ideas to life.
             </motion.p>
           </div>
           <motion.div
